@@ -16,6 +16,9 @@ In the other part, we can control mouse cursor on laptop screen using our eyes. 
 ### Emotion Recognition
 
 #### Emotion Recognition using Facial Dataset
+In this project, I will detect the facial expression through automatic system. Emotion recognition is the process of identifying the human emotion. It the technology used for to analyse human emotions from images or live videos and then stated out the result on the basis of emotions classification. The programmed facial appearance has many applications for instance, Social Behaviour Understanding, recognition of mental condition, and artificial humanoid expression. One of the main uses of this automatic system is to evaluate the candidate during the interview and to measure how he defended to certain questions. It is also useful and important for security and healthcare purposes. 
+
+This project will recognize your facial emotions using live webcam feed. The main processes in this project are as follows: • Upload and Adjust the Data set • Implementing the Facial Emotion Recognition Model Using CNN • Compile and Train Model Using CNN • Evaluate the Model • Save CNN Model • Evaluate the Model • Test the Mode
 
 #### Emotion Recognition using Eye Dataset
 We used eye emotion dataset DIU available on Kaggle. Build an application that can take human eyes as an input, with the help of trained CNN model will classify the image into human expressions. Data pre-processing was done, one hot encoding was applied on labels. InceptionV3 and Xception pretrained CNN model was used for feature extraction. CNN model was built, and train dataset was fed into model. Accuracy of the model achieved 72%. I build another Jupiter file that allows to use live webcam of your laptop using OpenCV library, it takes human face as an input image, crop the image to region of interest and classify the human expressions.
