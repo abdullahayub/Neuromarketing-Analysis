@@ -11,7 +11,12 @@ In EEG analysis brain signals were recorded and then it classifies into consumer
 We created an application that can track customer eyes which is very helpful in neuromarketing analysis. It can track eye movement if subject looks in different directions, also control cursor on computer screen. Images dataset was downloaded from Kaggle, perform data pre-processing, feature extraction, split the dataset into training and testing set then apply deep learning model CNN to predict the accuracy of model. The accuracy of overall model was achieved 87%
 
 ### Emotion Recognition
-Facial coding performed to recognize consumer emotions towards products. The advantage of this application that we can recognize the consumer expressions, how as they are feeling and what emotions they have about specific product. Eye images were collected from Kaggle. Inception and Xception model were used for features extraction. Training dataset was fed into CNN model to classify into human expressions. Accuracy of the model was obtained 72%. We also compared our results without applying pretrained convolutional network Inception-v3 and Xception model, then accuracy was achieved just 13% with 185% loss on testing dataset. 
+
+#### Emotion Recognition using Facial Dataset
+
+#### Emotion Recognition using Eye Dataset
+We used eye emotion dataset DIU available on Kaggle. Build an application that can take human eyes as an input, with the help of trained CNN model will classify the image into human expressions. Data pre-processing was done, one hot encoding was applied on labels. InceptionV3 and Xception pretrained CNN model was used for feature extraction. CNN model was built, and train dataset was fed into model. Accuracy of the model achieved 72%. I build another Jupiter file that allows to use live webcam of your laptop using OpenCV library, it takes human face as an input image, crop the image to region of interest and classify the human expressions.
+
 
 ### RFM Analysis customer Segmentation
 Dataset between year 2010- 2011 of retail online UK store was collected. Recency, frequency and monetary (RFM) analysis was performed. Did customer behaviour segmentation base on their RFM score? Rating was assigned to the customers. Quantile method is used to calculate RFM score and then segment the customers. K means algorithm was also applied; 5 clusters were created due to the rating between 1star to 5star. Segment the customers based on clusters by calculating their RFM score
