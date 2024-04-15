@@ -1,4 +1,4 @@
-## MS DataScience from Essex University
+## MS DataScience from Essex of University
 ## Neuromarketing Analysis using AI | Dissertation Project
 
 Neuromarketing is an emerging field that combines neuroscience and marketing together. now a days brands publicity, tv commercials and products has great influence over the consumers. In this research we measure the attention, emotional engagement, and consumer behaviour. 
