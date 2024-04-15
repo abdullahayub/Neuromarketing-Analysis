@@ -9,10 +9,6 @@ In EEG analysis brain signals were recorded and then it classifies into consumer
 
 ### Eye Motion Tracking and Gaze Detection (This code is in <a href="https://github.com/abdullahayub/Neuromarketing-Analysis/tree/my-new-branch" target="blank">**My-new-branch**</a>)
 
-
-
-##<a href="https://demo.abdullahprofile.uk/" target="blank">**My Portfolio**</a>
-
 We created an application that can track customer eyes which is very helpful in neuromarketing analysis. it can find out that what customers are looking for extract the useful information for future analysis for making strategies and decision making. There are two functionalities in application. First one is gaze and eye blinking detection in which we calculate eye gaze ratio to detect direction of eye movement for instance, he/she is looking at Right, Left, and Centre. For eye blinking, we calculate the eye blinking ratio. So, when we close our eyes, the system will detect and show the person is blinking his eyes. 
 
 In the other part, we can control mouse cursor on laptop screen using our eyes. We take the dataset of eye images available of Kaggle, perform data pre-processing, feature extraction. Training dataset fed into the CNN model. Accuracy of the model achieved 87%. This system works like it creates the path of consumer eye movements from which analyst extract the useful information which is beneficial for their business processes.
